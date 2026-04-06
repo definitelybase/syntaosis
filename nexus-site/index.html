@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>synTAOsis | Principal System Preview</title>
+    <meta
+      name="description"
+      content="A public preview of synTAOsis: one principal intelligence that defines intent, evaluates execution, and keeps downstream surfaces secondary until launch."
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260406h" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand-mark" href="/index.html">
+          <span class="brand-mark__dot"></span>
+          <span>synTAOsis</span>
+        </a>
+        <nav class="topbar__nav">
+          <div class="topbar__nav-group">
+            <a href="/index.html" class="topbar__link topbar__link--active topbar__link--core">Core</a>
+          </div>
+          <div class="topbar__nav-group">
+            <a href="/dashboard.html" class="topbar__link">Treasury</a>
+            <a href="/marketplace.html" class="topbar__link">Market</a>
+            <a href="/agent.html" class="topbar__link">Executor</a>
+            <a href="/billing.html" class="topbar__link">Capital</a>
+          </div>
+          <div class="topbar__nav-group">
+            <a href="/create.html" class="topbar__link topbar__link--utility">Registry</a>
+          </div>
+        </nav>
+        <div class="topbar__meta">
+          <span class="topbar__pill">In Build</span>
+          <div class="treasury-block">
+            <p class="treasury-block__label">Public Build</p>
+            <div class="treasury-block__metrics">
+              <div class="treasury-block__metric">
+                <span class="treasury-block__metric-label">State</span>
+                <strong class="treasury-block__metric-value" id="topbar-total-capital">In build</strong>
+              </div>
+              <div class="treasury-block__metric">
+                <span class="treasury-block__metric-label">Public View</span>
+                <strong class="treasury-block__metric-value" id="topbar-available-capital">Core only</strong>
+              </div>
+              <div class="treasury-block__metric">
+                <span class="treasury-block__metric-label">Focus</span>
+                <strong class="treasury-block__metric-value" id="topbar-allocation-delta">How it works</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="system-breadcrumb">
+        <span class="system-breadcrumb__item system-breadcrumb__item--strong">synTAOsis Core</span>
+        <span class="system-breadcrumb__divider">/</span>
+        <span class="system-breadcrumb__item" id="core-breadcrumb-intent">Public model</span>
+        <span class="system-breadcrumb__divider">/</span>
+        <span class="system-breadcrumb__item">Core</span>
+      </div>
+
+      <section class="state-ribbon">
+        <article class="state-ribbon__card">
+          <p class="state-ribbon__label">What It Is</p>
+          <h3 class="state-ribbon__value" id="core-ribbon-intent">One principal intelligence</h3>
+        </article>
+        <article class="state-ribbon__card">
+          <p class="state-ribbon__label">What Is Public</p>
+          <h3 class="state-ribbon__value" id="core-ribbon-status">Core explanation only</h3>
+        </article>
+        <article class="state-ribbon__card">
+          <p class="state-ribbon__label">Why It Starts Here</p>
+          <h3 class="state-ribbon__value" id="core-ribbon-dispatch">The control layer comes first</h3>
+        </article>
+        <article class="state-ribbon__card">
+          <p class="state-ribbon__label">What Stays Internal</p>
+          <h3 class="state-ribbon__value" id="core-ribbon-verification">Execution and commitment flows</h3>
+        </article>
+      </section>
+
+      <div class="system-body system-body--with-rail">
+        <aside class="context-rail">
+          <p class="context-rail__eyebrow">System Context</p>
+          <h3 class="context-rail__title">synTAOsis Core</h3>
+
+          <article class="context-rail__card">
+            <p class="context-rail__label">Public View</p>
+            <h4 class="context-rail__value" id="rail-intent-title">Core explanation only</h4>
+            <p class="context-rail__detail" id="rail-intent-detail">
+              synTAOsis is still in build mode, so the site explains the principal model instead of pretending the product loop is already live.
+            </p>
+          </article>
+
+          <article class="context-rail__card">
+            <p class="context-rail__label">System Shape</p>
+            <h4 class="context-rail__value" id="rail-dispatch-title">Principal first</h4>
+            <p class="context-rail__detail" id="rail-dispatch-detail">
+              One central intelligence defines intent and evaluates downstream execution instead of presenting equal product surfaces.
+            </p>
+          </article>
+
+          <article class="context-rail__card">
+            <p class="context-rail__label">What Stays Internal</p>
+            <h4 class="context-rail__value" id="rail-status-value">Execution and commitment</h4>
+            <p class="context-rail__detail" id="rail-status-detail">
+              Market comparison, registry controls, and operational flows stay private until they reflect real product behavior.
+            </p>
+          </article>
+        </aside>
+
+        <div class="system-main">
+          <main>
+        <section class="hero">
+          <div class="hero__copy">
+            <p class="eyebrow" id="core-hero-eyebrow">Principal System Preview</p>
+            <h1 id="core-hero-title">
+              Launch one central AI with a clear capital model,
+              <span>not a fake live product.</span>
+            </h1>
+            <p class="hero__lede" id="core-hero-lede">
+              synTAOsis is still in build mode. Publicly this site shows the
+              control model: one principal intelligence defines intent,
+              evaluates downstream execution, and keeps every secondary surface
+              clearly subordinate until launch is real.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button button--primary" href="#agent-console" id="core-primary-cta">View Execution Model</a>
+              <a class="button button--ghost" href="#scope" id="core-secondary-cta">View Launch Scope</a>
+              <a class="button button--ghost" href="#roadmap" id="core-tertiary-cta">View Build Roadmap</a>
+            </div>
+
+            <dl class="hero__stats" id="hero-stats"></dl>
+          </div>
+
+          <div class="hero__panel">
+            <div class="terminal-card">
+              <div class="terminal-card__header">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-card__body">
+                <p>system: <strong>Principal-first</strong></p>
+                <p>principal: <strong>synTAOsis Core</strong></p>
+                <p>public view: <strong id="core-terminal-wedge">How the control model works</strong></p>
+                <p>focus: <strong id="core-terminal-intent">Why execution stays secondary</strong></p>
+                <p>current lens: <strong id="core-terminal-allocation">Core only</strong></p>
+                <p>mode: <strong id="core-terminal-status">Explanatory</strong></p>
+              </div>
+            </div>
+
+            <div class="signal-grid">
+              <article class="signal-card">
+                <p class="signal-card__label">Public Scope</p>
+                <h2>Core only</h2>
+                <p>The site explains the principal layer first instead of exposing unfinished product surfaces.</p>
+              </article>
+              <article class="signal-card">
+                <p class="signal-card__label">Main Bet</p>
+                <h2>One principal first</h2>
+                <p>The central intelligence comes before execution, registry, and comparison surfaces.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--dense" id="agent-console">
+          <div class="section__heading">
+            <p class="eyebrow" id="candidate-section-eyebrow">Initial Execution Cohort</p>
+            <h2 id="candidate-section-title">These execution surfaces are still under evaluation, not open as public product surfaces.</h2>
+          </div>
+
+          <div class="agent-console">
+            <div class="agent-switcher" id="agent-switcher"></div>
+
+            <div class="agent-dashboard-card">
+              <div class="agent-dashboard-card__header">
+                <div>
+                  <p class="snapshot-card__label" id="candidate-card-label">Launch Candidate</p>
+                  <h3 id="agent-name">Wallet Sentinel</h3>
+                </div>
+                <span class="agent-pill" id="agent-verification">Under evaluation</span>
+              </div>
+
+              <p class="agent-tagline" id="agent-tagline"></p>
+              <p class="agent-description" id="agent-description"></p>
+
+              <div class="agent-metrics" id="agent-metrics"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="dashboard">
+          <div class="section__heading">
+            <p class="eyebrow">Product Snapshot</p>
+            <h2>The prototype is now shaped around one sovereign intelligence.</h2>
+          </div>
+
+          <div class="snapshot-grid">
+            <article class="snapshot-card">
+              <p class="snapshot-card__label">System Thesis</p>
+              <h3 id="thesis">One core AI controls capital and hires execution.</h3>
+              <p id="product-thesis-copy"></p>
+            </article>
+
+            <article class="snapshot-card snapshot-card--accent">
+              <p class="snapshot-card__label">How It Works</p>
+              <ul id="revenue-steps" class="clean-list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section--dense" id="scope">
+          <div class="section__heading">
+            <p class="eyebrow">v0 Scope</p>
+            <h2>What the central system must own first, and what stays secondary.</h2>
+          </div>
+
+          <div class="scope-grid">
+            <article class="scope-card">
+              <p class="scope-card__label">Must Have</p>
+              <ul id="must-have-list" class="clean-list"></ul>
+            </article>
+            <article class="scope-card">
+              <p class="scope-card__label">Hard No</p>
+              <ul id="hard-no-list" class="clean-list"></ul>
+            </article>
+            <article class="scope-card">
+              <p class="scope-card__label">Why This Wedge</p>
+              <ul id="why-wedge-list" class="clean-list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="cohort">
+          <div class="section__heading">
+            <p class="eyebrow">Execution Cohort</p>
+            <h2>We start with narrow specialist executors under one principal AI.</h2>
+          </div>
+
+          <div class="cohort-grid" id="cohort-grid"></div>
+        </section>
+
+        <section class="section section--dense" id="roadmap">
+          <div class="section__heading">
+            <p class="eyebrow">14-Day Build</p>
+            <h2>A fast path from central thesis to an honest launch surface.</h2>
+          </div>
+
+          <div class="timeline" id="timeline"></div>
+        </section>
+
+        <section class="section" id="data">
+          <div class="section__heading">
+            <p class="eyebrow">Embedded Data</p>
+            <h2>The site is populated from the current core-system structure.</h2>
+          </div>
+
+          <div class="data-grid">
+            <article class="data-card">
+              <p class="data-card__label">Launch Metrics</p>
+              <ul id="metrics-list" class="clean-list"></ul>
+            </article>
+
+            <article class="data-card">
+              <p class="data-card__label">Ranking Inputs</p>
+              <ul id="ranking-list" class="clean-list"></ul>
+            </article>
+
+            <article class="data-card data-card--full">
+              <p class="data-card__label">One-Sentence Definition</p>
+              <p id="one-liner" class="one-liner"></p>
+            </article>
+          </div>
+        </section>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js?v=20260406h"></script>
+  </body>
+</html>

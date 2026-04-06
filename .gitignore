@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+keys.txt
+wallets.txt
+settings.txt
+*.key
+*.pem
+.env
+.env.*
+
+*.db
+/nexus-site/nexus_demo.db
+/nexus-site/__pycache__/

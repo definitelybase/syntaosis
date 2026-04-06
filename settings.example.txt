@@ -1,0 +1,3 @@
+address=0xYOUR_ADDRESS
+private_key=YOUR_PRIVATE_KEY
+amount=0.005

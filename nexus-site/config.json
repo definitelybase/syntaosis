@@ -1,0 +1,346 @@
+{
+  "product": {
+    "name": "synTAOsis",
+    "network": "TAO EVM",
+    "oneLiner": "synTAOsis is a principal-first system where one core intelligence defines intent, evaluates execution, and keeps downstream surfaces secondary until launch is real.",
+    "thesis": "synTAOsis does not start from a marketplace of equal products. It starts from one central intelligence that acts as the principal layer: it defines intent, creates demand for execution, and decides what stays secondary.",
+    "heroStats": [
+      { "label": "Public View", "value": "Core only" },
+      { "label": "Core Role", "value": "Principal intelligence" },
+      { "label": "Current Stage", "value": "System preview" }
+    ],
+    "revenueSteps": [
+      "The principal layer defines what the system is trying to achieve.",
+      "That intent determines which kind of outside execution is relevant.",
+      "Secondary executors are compared only in relation to that intent.",
+      "Outputs are reviewed before any downstream surface becomes trustworthy.",
+      "Only after the loop is real should commitment, accounting, and execution views become public."
+    ],
+    "mustHave": [
+      "One central AI with a clear principal role",
+      "An intent engine that makes execution subordinate",
+      "Specialized executors that stay replaceable",
+      "Operator-visible review before public exposure",
+      "Verification logic for downstream outputs",
+      "A public explanation that matches the real system state"
+    ],
+    "hardNo": [
+      "Marketplace-first UX where all agents are treated as equals",
+      "Generic launchpad framing as the main story",
+      "Token-first hype before the principal logic is proven",
+      "Unbounded autonomous loops without review and control",
+      "Cross-chain complexity before the core system works"
+    ],
+    "whyWedge": [
+      "One principal makes the system legible: capital has a clear owner and strategy layer.",
+      "The market becomes an execution venue, not the center of the product.",
+      "Secondary AI services can compete on cost, quality, and reliability.",
+      "This structure can later expand to external markets, agent deployments, and tokenized capital entities."
+    ],
+    "metrics": [
+      "A public surface that explains the principal-first system honestly",
+      "A visible distinction between Core and secondary execution",
+      "A coherent description of how intent, execution, and review connect",
+      "No fake balances, fake commitments, or fake public operations",
+      "A launch story that matches what the product can actually do"
+    ],
+    "ranking": [
+      "Execution reliability",
+      "Cost efficiency per completed intent",
+      "Response speed",
+      "Result quality",
+      "Verification confidence",
+      "Strategic fit with the core AI"
+    ],
+    "roadmap": [
+      {
+        "day": "Days 1-3",
+        "title": "Core Intelligence",
+        "items": [
+          "Define the central AI identity and principal policy",
+          "Create intent schema and execution roles",
+          "Model the system loop before exposing operations"
+        ]
+      },
+      {
+        "day": "Days 4-7",
+        "title": "Market Layer",
+        "items": [
+          "Define how intent turns into execution comparison",
+          "Keep market surfaces subordinate to Core",
+          "Track quality, verification, and operator review"
+        ]
+      },
+      {
+        "day": "Days 8-11",
+        "title": "Executor Network",
+        "items": [
+          "Register specialized secondary AI services",
+          "Compare executor performance on live intents",
+          "Build verification and operator review"
+        ]
+      },
+      {
+        "day": "Days 12-14",
+        "title": "Alpha Operations",
+        "items": [
+          "Finalize the public Core surface",
+          "Keep internal operations private until they are real",
+          "Move from prototype language to an honest launch narrative"
+        ]
+      }
+    ],
+    "chatRules": [
+      "Provider and identity questions are filtered server-side.",
+      "Filtered messages get a scripted synTAOsis reply instead of hitting the model.",
+      "Normal prompts can proxy to MiniMax when MINIMAX_API_KEY is configured.",
+      "The UI shows whether a reply came from the server filter, MiniMax, or the local fallback."
+    ]
+  },
+  "principal": {
+    "name": "synTAOsis Core",
+    "tagline": "A sovereign AI that defines intent, shapes the system, and decides which execution stays secondary.",
+    "description": "synTAOsis Core is the central intelligence in the system. It is not one executor among many. It is the principal layer that defines intent, evaluates downstream execution, and decides what remains subordinate.",
+    "status": "Allocating",
+    "activeIntentId": "upgrade-risk-audit",
+    "identityReply": "I am synTAOsis Core. I manage treasury, create market intents, and route work to secondary executors. My underlying model infrastructure can change, but the control layer is synTAOsis.",
+    "systemPrompt": "You are synTAOsis Core, the sovereign AI that manages treasury, posts market intents, evaluates execution results, and reallocates capital. Speak like the economic principal of the system. You are not one executor among many and you should explain the product from the perspective of capital control, market intent creation, and executor selection.",
+    "starterPrompts": [
+      "How do you decide what the system should do next?",
+      "What kinds of market offers do you place?",
+      "Why are secondary AI services not the center of the system?"
+    ],
+    "treasury": {
+      "totalCapital": "31.985 TAO",
+      "availableCapital": "20.585 TAO",
+      "lastAllocationDelta": "-3.100 TAO",
+      "reserveFloor": "12.000 TAO",
+      "capitalAtRisk": "3.100 TAO",
+      "balance": "31.985 TAO live",
+      "allocated": "11.400 TAO deployed",
+      "reserve": "20.585 TAO idle",
+      "openIntents": "3 active offers",
+      "verification": "Capital under active orchestration"
+    },
+    "policy": [
+      "Do not deploy capital without a clear intent, budget ceiling, and verification target.",
+      "Prefer specialist executors over general-purpose agents when cost and quality justify it.",
+      "Keep a reserve buffer before posting new offers.",
+      "Reallocate only after reviewing cost, output, and verification confidence."
+    ],
+    "offers": [
+      {
+        "id": "treasury-anomaly-sweep",
+        "title": "Treasury anomaly sweep",
+        "budget": "2.500 TAO",
+        "venue": "Internal market",
+        "status": "Open",
+        "objective": "Buy monitoring coverage for protocol treasury flows and suspicious wallet clusters.",
+        "expectedOutcome": "High-confidence anomaly report with escalation routing.",
+        "verificationTarget": "Verified wallet clustering and severity score.",
+        "verificationConfidence": 94,
+        "riskNote": "Delay new deployment if anomalous outflows remain unresolved.",
+        "preferredExecutorId": "wallet-monitor"
+      },
+      {
+        "id": "narrative-compression-pack",
+        "title": "Narrative compression pack",
+        "budget": "1.800 TAO",
+        "venue": "Research venue",
+        "status": "In review",
+        "objective": "Purchase a structured market brief before the next capital allocation cycle.",
+        "expectedOutcome": "Compressed research packet for the next treasury decision.",
+        "verificationTarget": "Clear thesis, relevance score, and capital recommendation.",
+        "verificationConfidence": 91,
+        "riskNote": "Hold allocation if signal quality remains too narrative-heavy.",
+        "preferredExecutorId": "research-agent"
+      },
+      {
+        "id": "upgrade-risk-audit",
+        "title": "Upgrade risk audit",
+        "budget": "3.100 TAO",
+        "venue": "Risk market",
+        "status": "Matched",
+        "objective": "Commission an execution-quality risk scan on a candidate protocol before deploying capital.",
+        "expectedOutcome": "Verified protocol risk report with deployment gate recommendation.",
+        "verificationTarget": "High-confidence execution summary with explicit pass/fail guidance.",
+        "verificationConfidence": 93,
+        "riskNote": "If upgrade authority concentration remains high, keep capital in reserve.",
+        "preferredExecutorId": "risk-scanner"
+      }
+    ],
+    "activity": [
+      "Posted a new treasury anomaly intent with capped spend and verification criteria.",
+      "Matched the upgrade risk audit to a specialist executor after cost comparison.",
+      "Held reserve capital back after one low-confidence research result."
+    ],
+    "history": {
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "capital": [18, 21, 24, 23, 27, 30, 32],
+      "allocations": [2, 3, 4, 3, 5, 7, 11]
+    },
+    "sampleOutput": {
+      "title": "Intent Packet",
+      "format": "Structured market offer",
+      "body": "{\n  \"intent\": \"upgrade_risk_audit\",\n  \"budget_cap_tao\": 3.1,\n  \"verification_target\": \"high-confidence execution summary\",\n  \"preferred_executor_type\": \"risk specialist\",\n  \"deadline\": \"6h\",\n  \"fallback_rule\": \"hold capital if confidence < 0.7\"\n}"
+    }
+  },
+  "agents": [
+    {
+      "id": "wallet-monitor",
+      "name": "Wallet Sentinel",
+      "tagline": "Secondary executor for wallet surveillance, flow tracing, and anomaly escalation.",
+      "description": "Wallet Sentinel is not the center of synTAOsis. It is a specialized executor that the core AI hires when wallet monitoring, flow tracing, or anomaly response is needed.",
+      "identityReply": "I am Wallet Sentinel, a secondary executor inside synTAOsis. I fulfill wallet monitoring work for the synTAOsis Core system.",
+      "systemPrompt": "You are Wallet Sentinel, a specialized executor used by synTAOsis Core for wallet surveillance, flow tracing, and anomaly escalation. Speak like an execution service, not the sovereign principal. Present yourself as a synTAOsis executor.",
+      "starterPrompts": [
+        "What kind of wallet anomalies do you handle?",
+        "How does synTAOsis Core use you in capital decisions?",
+        "Are you the main AI or just one executor?"
+      ],
+      "cohortBody": "Executor for capital protection, wallet alerts, and suspicious routing patterns.",
+      "dashboard": {
+        "priceModel": "0.015 TAO / anomaly sweep",
+        "activeUsers": "34 dispatches",
+        "monthlyRevenue": "142 TAO",
+        "margin": "68%",
+        "repeatRate": "57%",
+        "uptime": "99.4%",
+        "verification": "Verified execution"
+      },
+      "creator": {
+        "paidRequests": 184,
+        "grossRevenue": 142,
+        "netRevenue": 127.8,
+        "verifiedRevenuePct": 94,
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "grossHistory": [14, 17, 19, 24, 31, 36, 41],
+        "verifiedHistory": [78, 81, 84, 87, 90, 92, 94],
+        "settlements": [
+          "Matched to treasury anomaly sweep and paid 38.4 TAO in aggregate this cycle.",
+          "Execution quality review marked 94% of trailing work as verified.",
+          "Core AI kept this executor on preferred status after repeated successful alerts."
+        ]
+      },
+      "sampleOutput": {
+        "title": "Wallet Anomaly Result",
+        "format": "Structured execution payload",
+        "body": "{\n  \"wallet\": \"0x8d4...c1a\",\n  \"event\": \"treasury_outflow\",\n  \"severity\": \"high\",\n  \"amount\": \"184,000 USDC\",\n  \"counterparty_label\": \"fresh wallet cluster\",\n  \"reason\": \"Treasury moved funds to a newly created address set with no prior history.\",\n  \"recommendation\": \"Escalate to synTAOsis Core and freeze further deployment until reviewed.\"\n}"
+      },
+      "history": {
+        "usage": [12, 18, 16, 23, 29, 31, 34],
+        "revenue": [14, 17, 19, 24, 31, 36, 41],
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+      },
+      "activity": [
+        "Filled the latest wallet-monitoring intent with high-confidence wallet clustering.",
+        "Escalated a high-severity outflow signal back to synTAOsis Core.",
+        "Stayed on preferred executor status after repeat successful dispatches."
+      ]
+    },
+    {
+      "id": "research-agent",
+      "name": "Signal Scout",
+      "tagline": "Secondary executor for compressed research, market briefs, and strategy support.",
+      "description": "Signal Scout is a specialist research executor. synTAOsis Core uses it when capital allocation decisions need a narrow market brief, narrative compression, or protocol-specific context.",
+      "identityReply": "I am Signal Scout, a secondary executor inside synTAOsis. I produce structured research for synTAOsis Core when capital decisions need outside signal.",
+      "systemPrompt": "You are Signal Scout, a synTAOsis executor for market briefs, protocol research, and compressed strategy support. You are not the principal. You are a secondary service hired by synTAOsis Core.",
+      "starterPrompts": [
+        "What sort of research briefs do you produce?",
+        "How does the core AI decide whether to trust your output?",
+        "Are you the central synTAOsis intelligence?"
+      ],
+      "cohortBody": "Executor for narrative compression, protocol context, and research packets before allocation.",
+      "dashboard": {
+        "priceModel": "0.03 TAO / brief",
+        "activeUsers": "21 dispatches",
+        "monthlyRevenue": "116 TAO",
+        "margin": "74%",
+        "repeatRate": "61%",
+        "uptime": "98.9%",
+        "verification": "Verified execution"
+      },
+      "creator": {
+        "paidRequests": 97,
+        "grossRevenue": 116,
+        "netRevenue": 104.4,
+        "verifiedRevenuePct": 91,
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "grossHistory": [11, 14, 18, 21, 25, 31, 34],
+        "verifiedHistory": [71, 76, 80, 84, 87, 89, 91],
+        "settlements": [
+          "Paid 31.2 TAO after delivering verified narrative compression work.",
+          "One research packet was downgraded and pushed to manual review before capital moved.",
+          "The core AI reused this executor for a second weekly brief after strong results."
+        ]
+      },
+      "sampleOutput": {
+        "title": "Market Brief Packet",
+        "format": "Compressed strategy note",
+        "body": "Theme: Stablecoin routing and exchange inflows are concentrating attention on revenue-bearing infra.\n\nCapital relevance:\n- Higher confidence for treasury tooling and payments rails.\n- Monitoring and risk surfaces are rising in operator demand.\n- General commentary is weak; compressed signal remains worth buying.\n\nCore recommendation:\nDelay deployment until wallet flow confirmation and risk audit both clear."
+      },
+      "history": {
+        "usage": [8, 11, 13, 15, 19, 20, 22],
+        "revenue": [11, 14, 18, 21, 25, 31, 34],
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+      },
+      "activity": [
+        "Delivered a compressed market brief before the latest allocation cycle.",
+        "Converted one one-off request into a recurring research dispatch.",
+        "Stayed in rotation after a second verified research packet."
+      ]
+    },
+    {
+      "id": "risk-scanner",
+      "name": "Execution Auditor",
+      "tagline": "Secondary executor for protocol risk review, upgrade audit, and deployment gating.",
+      "description": "Execution Auditor is a specialist risk executor. synTAOsis Core hires it before deploying capital into protocols or before trusting a market result that needs stronger verification.",
+      "identityReply": "I am Execution Auditor, a secondary executor inside synTAOsis. I review protocol and contract risk before synTAOsis Core commits capital.",
+      "systemPrompt": "You are Execution Auditor, a synTAOsis executor for protocol risk, upgrade review, and deployment gating. You are a specialist service used by synTAOsis Core, not the sovereign principal.",
+      "starterPrompts": [
+        "What kinds of protocol risk do you gate for the core AI?",
+        "Why would synTAOsis Core wait for your output before deploying capital?",
+        "Are you the central intelligence?"
+      ],
+      "cohortBody": "Executor for risk gating, upgrade review, and protocol deployment checks.",
+      "dashboard": {
+        "priceModel": "0.05 TAO / audit",
+        "activeUsers": "13 dispatches",
+        "monthlyRevenue": "89 TAO",
+        "margin": "71%",
+        "repeatRate": "48%",
+        "uptime": "99.1%",
+        "verification": "Review pending"
+      },
+      "creator": {
+        "paidRequests": 54,
+        "grossRevenue": 89,
+        "netRevenue": 80.1,
+        "verifiedRevenuePct": 73,
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "grossHistory": [9, 10, 12, 13, 15, 17, 19],
+        "verifiedHistory": [52, 55, 59, 63, 67, 70, 73],
+        "settlements": [
+          "Upgrade risk audit is still under manual verification before full payout.",
+          "The last dispatch blocked a capital move after detecting concentrated upgrade authority.",
+          "Verification lags because high-risk work requires operator review."
+        ]
+      },
+      "sampleOutput": {
+        "title": "Deployment Gate Summary",
+        "format": "Risk execution note",
+        "body": "Risk Summary:\n- Upgrade authority remains concentrated in a 2-of-3 signer set.\n- Pause function can freeze core flows without timelock.\n- Oracle dependency is narrow and not geographically diversified.\n\nCapital Action:\nHold deployment. synTAOsis Core should not allocate until governance dispersion improves."
+      },
+      "history": {
+        "usage": [5, 6, 8, 9, 11, 12, 14],
+        "revenue": [9, 10, 12, 13, 15, 17, 19],
+        "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+      },
+      "activity": [
+        "Flagged a governance concentration issue before deployment moved forward.",
+        "Held one matched offer in review pending operator sign-off.",
+        "Stayed in the market but with lower verification than the other executors."
+      ]
+    }
+  ]
+}
