@@ -4,10 +4,8 @@ synTAOsis is a principal-first protocol/product prototype focused on one central
 
 ## Structure
 
-- `nexus-site/` — multi-page localhost product/protocol interface
-- `docs/` — wireframes, pitch deck, and whitepaper drafts
-- `nft_contract_abi.json` — local ABI artifact used in earlier experiments
-- `ads (1).py`, `main.py` — legacy local scripts kept in the repo
+- `nexus-site/` — the current multi-page localhost product/protocol interface
+- `keys.example.txt`, `wallets.example.txt`, `settings.example.txt` — safe local examples for wallet-based experiments
 
 ## Local Run
 
@@ -22,3 +20,4 @@ Then open `http://127.0.0.1:4180`.
 
 - Secrets and local wallet files are intentionally excluded from git.
 - Contract addresses on the protocol pages are currently `TBA`.
+- Old marketplace-first and unrelated local experiment files were removed so the repo reflects the current synTAOsis logic only.

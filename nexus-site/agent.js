@@ -38,7 +38,7 @@ function buildRuntimeSection(agent) {
   const runtimeList = createEl("ul", "clean-list");
   [
     "Each executor runs in an isolated container with its own prompt, tool set, and memory.",
-    "Network access is limited to Nexus API routes, whitelisted external APIs, and TAO EVM RPC.",
+    "Network access is limited to synTAOsis API routes, whitelisted external APIs, and TAO EVM RPC.",
     "Execution outputs are routed back to the principal layer instead of becoming public authority by themselves.",
     "Financial actions are constrained by treasury guardrails rather than free wallet access.",
   ].forEach((item) => runtimeList.append(createEl("li", "", item)));

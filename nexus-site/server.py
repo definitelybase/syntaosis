@@ -90,11 +90,13 @@ def load_settings() -> Settings:
         minimax_model=os.environ.get("MINIMAX_MODEL", DEFAULT_MODEL),
         identity_reply=(
             os.environ.get("SYNTAOSIS_IDENTITY_REPLY")
+            or os.environ.get("SYNTAOSIS_IDENTITY_REPLY")
             or os.environ.get("NEXUS_IDENTITY_REPLY")
             or DEFAULT_IDENTITY_REPLY
         ),
         system_prompt=(
             os.environ.get("SYNTAOSIS_SYSTEM_PROMPT")
+            or os.environ.get("SYNTAOSIS_SYSTEM_PROMPT")
             or os.environ.get("NEXUS_SYSTEM_PROMPT")
             or DEFAULT_SYSTEM_PROMPT
         ),

@@ -1,16 +1,18 @@
-# NEXUS Local Demo
+# synTAOsis Local Site
 
-This folder contains a local prototype site plus a small Python server that:
+This folder contains the current synTAOsis localhost product/protocol interface plus a small Python server that:
 
-- serves the static site
-- exposes `POST /api/chat`
-- exposes `GET /api/state` and `POST /api/deposit`
+- serves the static multi-page site
+- exposes `GET /api/config`, `GET /api/state`, and `POST /api/chat`
 - intercepts provider/model identity questions on the server
-- optionally proxies normal prompts to MiniMax
-- renders a multi-agent alpha console
-- simulates buyer TAO deposits and request charging
-- shows a creator-side revenue and settlement dashboard
-- persists buyer and creator business state in `sqlite`
+- can optionally proxy normal prompts to MiniMax
+- renders the current public Core surface plus protocol explainer pages for:
+  - `Treasury`
+  - `Market`
+  - `Executor`
+  - `Capital`
+  - `Registry`
+- keeps contract addresses and onchain references as `TBA` until real deployment
 
 ## Run
 
@@ -31,15 +33,9 @@ Useful routes:
 /index.html
 /marketplace.html
 /agent.html?agent=wallet-monitor
-/create.html?agent=research-agent
-/dashboard.html?agent=risk-scanner
+/dashboard.html?agent=wallet-monitor
 /billing.html?agent=wallet-monitor
-```
-
-The local state database is stored at:
-
-```text
-/Users/daniltkacev/Documents/dafssfa/nexus-site/nexus_demo.db
+/create.html?agent=wallet-monitor
 ```
 
 ## Optional MiniMax Proxy
@@ -59,7 +55,6 @@ If `MINIMAX_API_KEY` is missing, the chat still works in local mock mode.
 - provider/model questions are handled by the server filter
 - filtered messages do not reach MiniMax
 - normal prompts can still go through MiniMax
-- buyer credits, transactions, creator revenue, and settlements survive server restarts
 - the UI labels whether a reply came from:
   - `server-filter`
   - `MiniMax`
