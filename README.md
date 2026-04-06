@@ -5,7 +5,6 @@ synTAOsis is a principal-first protocol/product prototype focused on one central
 ## Structure
 
 - `nexus-site/` — the current multi-page localhost product/protocol interface
-- `keys.example.txt`, `wallets.example.txt`, `settings.example.txt` — safe local examples for wallet-based experiments
 
 ## Local Run
 
